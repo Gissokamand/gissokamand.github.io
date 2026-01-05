@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kamand — Personal Blog</title>
+    <title>Kamand Abdolhosseini — Analytical Chemist</title>
+    <meta name="description" content="Kamand Abdolhosseini — Analytical Chemistry, Fluorescence Sensing, Quantum Dots/Carbon Dots, Chemometrics." />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -17,28 +18,23 @@
 
         <nav class="nav">
           <a class="nav-link active" href="#home">Home</a>
-          <a class="nav-link" href="#photography">Photography</a>
-          <a class="nav-link" href="#travel">Travel</a>
-          <a class="nav-link" href="#fashion">Fashion</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#publications">Publications</a>
+          <a class="nav-link" href="#cv">CV</a>
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#contact">Contact</a>
         </nav>
 
         <div class="sidebar-footer">
           <div class="copyright">
-            Copyright © <span id="year"></span> All rights reserved
-          </div>
-
-          <div class="template-note">
-            This template is made with <span aria-hidden="true">♥</span> by
-            <a href="#" rel="nofollow noopener">You</a>
+            © <span id="year"></span> Kamand Abdolhosseini
           </div>
 
           <div class="social">
-            <a href="#" aria-label="Facebook">f</a>
-            <a href="#" aria-label="Twitter">t</a>
-            <a href="#" aria-label="Instagram">ig</a>
-            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="https://github.com/gissokamand" aria-label="GitHub" target="_blank" rel="noopener">gh</a>
+            <a href="[[PASTE_RESEARCHGATE_LINK]]" aria-label="ResearchGate" target="_blank" rel="noopener">rg</a>
+            <a href="[[PASTE_LINKEDIN_LINK]]" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+            <a href="mailto:[[YOUR_EMAIL]]" aria-label="Email">mail</a>
           </div>
         </div>
       </aside>
@@ -49,86 +45,123 @@
         <section class="hero">
           <div class="hero-inner">
             <div class="avatar">
-              <!-- Replace with your own image in /assets -->
-              <img src="assets/profile.jpg" alt="Profile photo" />
+              <!-- Optional: replace with your own image in /assets -->
+              <img src="assets/profile.jpg" alt="Profile photo of Kamand Abdolhosseini" />
             </div>
 
-            <div class="hello">Hello I'm</div>
+            <div class="hello">Hello, I'm</div>
             <h1 class="name">Kamand Abdolhosseini</h1>
 
             <p class="bio">
-              I am a chemist :D
+              Analytical Chemist focused on fluorescence-based sensing (Carbon Dots & Quantum Dots) and chemometric/ML modeling for real-sample analysis.
             </p>
 
-            <a class="btn" href="#about">More About Me</a>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+              <a class="btn" href="#projects">Selected Projects</a>
+              <a class="btn" href="assets/KamandCV.pdf" target="_blank" rel="noopener">Download CV</a>
+            </div>
           </div>
 
-          <!-- Decorative mountain background -->
           <div class="hero-mountains" aria-hidden="true"></div>
         </section>
 
-        <!-- Articles -->
-        <section class="section" id="articles">
-          <h2 class="section-title">Articles</h2>
+        <!-- Projects -->
+        <section class="section" id="projects">
+          <h2 class="section-title">Selected Projects</h2>
           <p class="section-subtitle">
-            A small river named Duden flows by their place and supplies it with
-            the necessary regelialia.
+            Research projects in analytical chemistry, fluorescence sensing, and chemometrics.
           </p>
 
           <div class="cards">
             <article class="card">
-              <div class="card-meta">Photography • Jan 12</div>
-              <h3 class="card-title">My favorite golden hour shots</h3>
+              <div class="card-meta">Fluorescence Sensing • Chemometrics</div>
+              <h3 class="card-title">Multiplexed metal-ion detection (Fe³⁺, Ag⁺, Cu²⁺) using Carbon Dots + MPA-CdTe QDs</h3>
               <p class="card-text">
-                A short write-up about composition, light, and the tiny habits
-                that make photos feel alive.
+                Designed a fluorescence platform and evaluated classification/regression performance using chemometric/ML models; validated in real samples (blood serum, mouthwash, black tea).
               </p>
-              <a class="card-link" href="#">Read more →</a>
+              <a class="card-link" href="[[PASTE_REPO_OR_PREPRINT_LINK]]" target="_blank" rel="noopener">Link →</a>
             </article>
 
             <article class="card">
-              <div class="card-meta">Travel • Feb 03</div>
-              <h3 class="card-title">A weekend itinerary you’ll reuse</h3>
+              <div class="card-meta">Microplastics • Environmental Chemistry</div>
+              <h3 class="card-title">Microplastics as pollutant carriers: adsorption of hazardous aromatic hydrocarbons</h3>
               <p class="card-text">
-                A simple city break plan with walking routes, food stops, and
-                chill time built in.
+                Investigated adsorption behavior across pristine and aged microplastics; supported by analytical measurements and data interpretation for environmental relevance.
               </p>
-              <a class="card-link" href="#">Read more →</a>
+              <a class="card-link" href="[[PASTE_PAPER_LINK_OR_DOI]]" target="_blank" rel="noopener">Paper →</a>
             </article>
 
             <article class="card">
-              <div class="card-meta">Fashion • Mar 18</div>
-              <h3 class="card-title">Capsule wardrobe essentials</h3>
+              <div class="card-meta">Materials • MOF / Nanocomposite</div>
+              <h3 class="card-title">Fluorescence-driven contaminant removal using Mn@MIL-88A nanocomposite</h3>
               <p class="card-text">
-                Fewer pieces, more outfits. Here’s a practical approach that
-                still feels like “you.”
+                Developing a hybrid material concept for contaminant removal and fluorescence tracking; focusing on synthesis design and analytical validation workflow.
               </p>
-              <a class="card-link" href="#">Read more →</a>
+              <a class="card-link" href="[[PASTE_REPO_LINK_OR_PROJECT_PAGE]]" target="_blank" rel="noopener">Details →</a>
             </article>
           </div>
+        </section>
+
+        <!-- Publications -->
+        <section class="section" id="publications">
+          <h2 class="section-title">Publications</h2>
+          <p class="section-subtitle">Peer-reviewed and in-preparation manuscripts.</p>
+
+          <div class="about-grid">
+            <div class="about-block">
+              <h3>Published</h3>
+              <p>
+                Tavoussi-Shirazi, D.; Abdolhosseini, K.; Hamidian, A.; Bagheri, H.
+                “Adsorption of some hazardous aromatic hydrocarbons by various pristine and heat-activated aged microplastics…”
+                <em>Journal of Contaminant Hydrology</em> (2025) 104817.
+              </p>
+            </div>
+
+            <div class="about-block">
+              <h3>In preparation</h3>
+              <p>
+                Selected manuscripts on multiplexed fluorescence sensing (CDs/QDs), MOF-based sensors, and method greenness evaluation.
+              </p>
+            </div>
+
+            <div class="about-block">
+              <h3>Profiles</h3>
+              <p>
+                ResearchGate: <a href="[[PASTE_RESEARCHGATE_LINK]]" target="_blank" rel="noopener">link</a><br />
+                Google Scholar: <a href="[[PASTE_SCHOLAR_LINK]]" target="_blank" rel="noopener">link</a>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- CV -->
+        <section class="section" id="cv">
+          <h2 class="section-title">CV</h2>
+          <p class="section-subtitle">
+            Download my full CV as a PDF.
+          </p>
+          <a class="btn" href="assets/KamandCV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
         </section>
 
         <!-- About -->
         <section class="section" id="about">
           <h2 class="section-title">About</h2>
           <p class="section-subtitle">
-            Write a couple of paragraphs here about who you are and what you do.
+            Analytical chemistry researcher with hands-on lab and instrumentation experience, focusing on fluorescence sensing and data-driven analysis.
           </p>
 
           <div class="about-grid">
             <div class="about-block">
-              <h3>What I do</h3>
-              <p>
-                Blogging, photography, and creating simple, clean web projects.
-              </p>
+              <h3>Focus</h3>
+              <p>Fluorescence spectroscopy, Carbon Dots/Quantum Dots sensors, chemometrics, real-sample validation.</p>
             </div>
             <div class="about-block">
-              <h3>Tools</h3>
-              <p>Camera • Lightroom • VS Code • GitHub Pages</p>
+              <h3>Instrumentation</h3>
+              <p>FT-IR, fluorescence spectroscopy, HPLC, AAS, GC; plus interpretation across XRF/XRD/ICP-based outputs as needed.</p>
             </div>
             <div class="about-block">
               <h3>Location</h3>
-              <p>Somewhere fun (replace this)</p>
+              <p>[[CITY, COUNTRY]]</p>
             </div>
           </div>
         </section>
@@ -137,31 +170,29 @@
         <section class="section" id="contact">
           <h2 class="section-title">Contact</h2>
           <p class="section-subtitle">
-            Drop a message. (For GitHub Pages, this form is visual-only unless
-            you connect a form service.)
+            Email is the fastest way to reach me.
           </p>
 
-          <form class="form" onsubmit="return false;">
-            <div class="form-row">
-              <label>
-                Name
-                <input type="text" placeholder="Your name" />
-              </label>
-              <label>
-                Email
-                <input type="email" placeholder="you@email.com" />
-              </label>
+          <div class="about-grid">
+            <div class="about-block">
+              <h3>Email</h3>
+              <p><a href="mailto:[[YOUR_EMAIL]]">[[YOUR_EMAIL]]</a></p>
             </div>
-            <label>
-              Message
-              <textarea rows="5" placeholder="Write your message..."></textarea>
-            </label>
-            <button class="btn" type="submit">Send</button>
-          </form>
+            <div class="about-block">
+              <h3>LinkedIn</h3>
+              <p><a href="[[PASTE_LINKEDIN_LINK]]" target="_blank" rel="noopener">[[PASTE_LINKEDIN_LINK]]</a></p>
+            </div>
+            <div class="about-block">
+              <h3>Research</h3>
+              <p><a href="[[PASTE_RESEARCHGATE_LINK]]" target="_blank" rel="noopener">ResearchGate</a></p>
+            </div>
+          </div>
+
+          <!-- If you later want a working form, we can connect Formspree/Getform -->
         </section>
 
         <footer class="page-footer">
-          <div>© <span id="year2"></span> Your Name</div>
+          <div>© <span id="year2"></span> Kamand Abdolhosseini</div>
         </footer>
       </main>
     </div>
